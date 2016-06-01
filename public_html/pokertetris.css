@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'aeromatics_b';
+    src: url('fonts/aero_matics_bold.eot');
+    src: url('fonts/aero_matics_bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aero_matics_bold.woff') format('woff'),
+         url('fonts/aero_matics_bold.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    background: -webkit-repeating-linear-gradient(left top, rgba(0, 64, 0, 1) 73%, rgba(0, 54, 0, 1) 98%);/* Chrome10+,Safari5.1+ */
+    background: -moz-repeating-linear-gradient(left top, rgba(0, 64, 0, 1) 73%, rgba(0, 54, 0, 1) 98%);/* FF3.6+ */
+    background: -o-repeating-linear-gradient(left top, rgba(0, 64, 0, 1) 73%, rgba(0, 54, 0, 1) 98%);/* Opera 11.10+ */
+    background: -ms-repeating-linear-gradient(left top, rgba(0, 64, 0, 1) 73%, rgba(0, 54, 0, 1) 98%); /* IE10+ */
+    background: repeating-linear-gradient(to right bottom, rgba(0, 64, 0, 1) 73%, rgba(0, 54, 0, 1) 98%);/* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#003366, endColorstr=#000000);/* IE6-8 */
+    background-size: 10px 10px;
+    background-repeat: repeat;
+    
+    color: rgb(0,218,0);
+    font-family: "aeromatics_b", "Tahoma", "Arial";
+    font-size: 22px;
+}
+
+.main {
+    margin: auto;
+    width: 780px;
+    height: 100%;
+    background: rgb(0,64,0);
+   // border: 1px solid rgb(0,128,0);
+}
+
+h1 {
+    font-size: 72px;
+    color: rgb(181,230,29);
+  //  padding: 10px 30px;
+    margin: 0px 0px 10px 25px;
+    float:left;
+    //text-align: center;
+}
+
+.button_ng {
+    //background: rgb(181,230,29);
+    //color: rgb(0,48,0);
+    background: rgb(0,218,0);
+    color: rgb(0,64,0);
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 4px;
+   // text-decoration: none;
+   // height: 40px;
+   // line-height: 42px;
+ 
+   padding: 10px 15px;
+  // margin: 0px 20px;
+    //display: block;
+ //   float: right;
+    
+   cursor: pointer;
+}
+
+
+.buttonbox {
+   // margin: 10px 0px;
+    margin: 0px 0px 20px 25px;
+    clear: both;
+   // float: left;
+}
+
+.info {
+    float: right;
+    margin: 15px 25px 0px 0px;
+}
+
+.ginfo {
+    background: rgb(181,230,29);
+    color: rgb(100,125,10);
+    border-radius: 4px;
+    padding: 0px 10px;
+    text-align: center;
+    font-size: 26px;
+    display: inline-block;
+}
+
+.level {
+    background: rgb(181,230,29);
+    color: rgb(100,125,10);
+    padding: 0 5px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.button2 {
+    background: rgb(181,230,29);
+    color: rgb(0,48,0);
+    
+    border-radius: 4px;
+   // text-decoration: none;
+   // height: 40px;
+   // line-height: 42px;
+    text-align: center;
+    padding: 10px 15px;
+   // font-weight: bold;
+    //display: block;
+ //   float: right;
+    //border: 2px solid rgb(0,218,0);
+}
+
+.nextshape {
+    //clear: both;
+   // display: inline;
+   float: right;
+   margin: 10px 45px 0px 0px;
+}
+
+.foot {
+    margin: 10px 30px;
+    padding: 5px;
+    clear: both;
+}
+
+.head {
+    margin: 0;
+    font-size: 28px;
+}
+
+.li {
+    text-align: center;
+    display: none;
+}
+
